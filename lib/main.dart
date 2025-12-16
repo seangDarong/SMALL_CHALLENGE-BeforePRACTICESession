@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color.fromARGB(255, 147, 229, 250),
           brightness: Brightness.dark,
-          surface: const Color.fromARGB(255, 42, 51, 59),
+          surface: const Color.fromARGB(255, 17, 117, 50),
         ),
-        scaffoldBackgroundColor: const Color.fromARGB(255, 50, 58, 60),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 14, 82, 41),
       ),
       home: const GroceryList(),
     );
