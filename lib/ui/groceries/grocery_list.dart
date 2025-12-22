@@ -26,7 +26,6 @@ class _GroceryListState extends State<GroceryList> {
   }
 
   }
-
       void _addGrocery(Grocery newGrocery){
     setState(() {
       dummyGroceryItems.add(newGrocery);
@@ -38,9 +37,7 @@ class _GroceryListState extends State<GroceryList> {
     Widget content = const Center(child: Text('No items added yet.'));
 
     if (dummyGroceryItems.isNotEmpty) {
-
        // TODO-1 - Display groceries with an Item builder and  LIst Tile
-      
       content = ListView.builder(
       itemCount: dummyGroceryItems.length,
       itemBuilder: (context, index) {
